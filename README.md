@@ -16,7 +16,9 @@
 </br>  
 
 # Important!
-### Do not start the search process in debug mode; instead, start the EXE manually. Doing so could cause a compiler crash.
+### Do not start the search process in debug mode, instead, start the EXE manually. Doing so could cause a compiler crash.
+
+</br>
 
 A proxy server is a [computer networking](https://en.wikipedia.org/wiki/Computer_network) term for a [server application](https://en.wikipedia.org/wiki/Server_(computing)) that acts as an [intermediary](https://en.wikipedia.org/wiki/Intermediary) between a [client](https://en.wikipedia.org/wiki/Client_(computing)) requesting a resource and the server then providing that resource.
 
