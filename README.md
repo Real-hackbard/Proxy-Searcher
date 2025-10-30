@@ -25,7 +25,7 @@ Instead of connecting directly to a server that can fulfill a request for a reso
 
 </br>
 
-### Response:
+# Response:
 * ```Unknown State:```
   * A proxy in an "Unknown State" most commonly means a monitoring system like Zabbix has not yet received or updated the proxy's status, possibly because the proxy was just created while the server was down. Other common uses of the "Unknown" status can indicate that a proxy server itself has encountered a problem, and it's waiting for more information to determine its status.
 * ```Slow:```
