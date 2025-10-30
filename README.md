@@ -25,8 +25,21 @@ Instead of connecting directly to a server that can fulfill a request for a reso
 
 </br>
 
-
-
+### Response:
+* ```Unknown State:```
+  * A proxy in an "Unknown State" most commonly means a monitoring system like Zabbix has not yet received or updated the proxy's status, possibly because the proxy was just created while the server was down. Other common uses of the "Unknown" status can indicate that a proxy server itself has encountered a problem, and it's waiting for more information to determine its status.
+* ```Slow:```
+  * A slow proxy is often caused by your server's hardware, network congestion, or a poor connection between you and the proxy server. To fix it, try changing proxy servers or locations, boosting your server's computing power, or adjusting settings like timeouts and timeouts. 
+* ```Rejected:```
+  * A "proxy rejected" error means the proxy server extists but the target server is blocking your connection, which can be due to incorrect proxy settings, network problems, or the server blocking your IP address. To fix this, try clearing your browser's cache and cookies, restarting your modem, or flushing your DNS cache. If those fail, check your proxy settings for accuracy or try using a different browser or proxy. 
+* ```Activ:```
+  * When "active," it means the proxy is functioning and your internet requests are being processed by it, masking your IP address, and potentially providing benefits like enhanced security, privacy, and faster browsing through caching. 
+* ```False Address:```
+  * A "proxy server False Address" likely refers to a situation where a website or service is incorrectly identifying your IP address as a proxy or you are receiving an error because the proxy server address you've entered is wrong. A proxy server can pass a false IP address to hide your true location, but this can also lead to errors if the proxy is misconfigured or the service you're using doesn't allow proxies. 
+* ```Queue in Process:```
+  * A proxy server queue is a backlog of data that the server is processing or waiting to send. In a monitoring context, a high proxy queue can indicate that the proxy server can't keep up with the incoming data flow, leading to delays. In a networking context, a queue can be used to manage traffic by holding connections until the server can handle them, ensuring a steady flow and protecting backend servers. 
+* ```Off (Timeout):```
+  * A "proxy server Off (Timeout)" error indicates a failure to connect to the proxy server, most likely due to network issues, a faulty proxy server, or a server being blocked. To fix this, you can check your internet connection, verify your proxy settings, try a different proxy, or temporarily disable your firewall to see if the error is being caused by interference. 
 
 
 
