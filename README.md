@@ -91,6 +91,9 @@ An [open proxy](https://en.wikipedia.org/wiki/Open_proxy) is a [forwarding](http
 * https://proxy5.net/free-proxy
 * https://proxydb.net/
 * https://fineproxy.org/free-proxy/
+* https://proxy-tools.com/proxy/socks
+* https://proxybros.com/free-proxy-list/
+* https://www.proxyrack.com/free-proxy-list/
 
 
 
