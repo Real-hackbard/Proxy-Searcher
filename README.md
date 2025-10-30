@@ -60,6 +60,14 @@ When discussing proxy server HTTP options, it is important to distinguish betwee
 | ```hoWaitForUnexpectedData``` | The hoWaitForUnexpectedData option in Delphi's TIdHTTP component is a flag that controls how the component handles a specific scenario: when a server sends unexpected data after a request has supposedly finished. |
 | ```hoTreat302Like303``` | hoTreat302Like303 is an option in the HTTPOptions property of the Indy TIdHTTP component in Delphi. When enabled, it causes an HTTP status code 302 Found (temporary redirect) to be treated the same as a 303 See Other. |
 | ```hoNoProtocolErrorException``` | The hoNoProtocolErrorException flag in Delphi's TIdHTTP component is used to prevent the component from automatically raising an EIdHTTPProtocolException for HTTP status codes that indicate an error (e.g., 404 Not Found, 500 Internal Server Error). By default, TIdHTTP throws this exception, and the response body is made available through the exception object itself. |
+| ```hoNoReadMultipartMIME``` | hoNoReadMultipartMIME is an option flag in the HTTPOptions property of the TIdHTTP component in Delphi's Indy (Internet Direct) library. When enabled, it prevents TIdHTTP from automatically reading and parsing the response body if the content type is multipart/*. |
+| ```hoNoParseXmlCharset``` | The property hoNoParseXmlCharset belongs to the HTTPOptions of the TIdHTTP component in the Delphi framework Indy. It controls how TIdHTTP handles character encoding in XML responses. |
+| ```hoNoReadChunked``` | In Delphi's TIdHTTP component (part of the Indy library), the hoNoReadChunked option is used to disable the automatic handling of HTTP chunked transfer encoding. When this option is enabled, TIdHTTP will not process the response body if the server returns Transfer-Encoding: chunked. This allows you to handle the chunks manually. |
+
+</br>
+
+
+
 
 
 
