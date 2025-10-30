@@ -59,7 +59,7 @@ When discussing proxy server HTTP options, it is important to distinguish betwee
 | ```hoNoParseMetaHTTPEquiv``` | hoNoParseMetaHTTPEquiv is an option in the HTTPOptions property of the TIdHTTP component in Delphi that controls how TIdHTTP responds to HTML meta elements. |
 | ```hoWaitForUnexpectedData``` | The hoWaitForUnexpectedData option in Delphi's TIdHTTP component is a flag that controls how the component handles a specific scenario: when a server sends unexpected data after a request has supposedly finished. |
 | ```hoTreat302Like303``` | hoTreat302Like303 is an option in the HTTPOptions property of the Indy TIdHTTP component in Delphi. When enabled, it causes an HTTP status code 302 Found (temporary redirect) to be treated the same as a 303 See Other. |
-
+| ```hoNoProtocolErrorException``` | The hoNoProtocolErrorException flag in Delphi's TIdHTTP component is used to prevent the component from automatically raising an EIdHTTPProtocolException for HTTP status codes that indicate an error (e.g., 404 Not Found, 500 Internal Server Error). By default, TIdHTTP throws this exception, and the response body is made available through the exception object itself. |
 
 
 
