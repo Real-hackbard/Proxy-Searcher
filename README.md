@@ -55,6 +55,14 @@ When discussing proxy server HTTP options, it is important to distinguish betwee
 | ```hoInProcessAuth``` | hoInProcessAuth` is a constant from the IdHTTP component in Delphi that specifies that authentication for a request should take place locally (in-process). This means that authentication is performed by the IdHTTP component itself, without the need for an external network connection, which is often used for internal authentication. |
 | ```hoKeepOrigProtocol``` | The hoKeepOrigProtocol option for the Delphi Indy TIdHTTP component prevents the library from downgrading HTTP protocol requests, most notably POST requests. |
 | ```hoForceEncodeParams``` | In Delphi's TIdHTTP component (part of the Indy library), the hoForceEncodeParams option, part of the HTTPOptions property, controls the encoding behavior for parameters in POST requests. |
+| ```hoNonSSLProxyUseConnectVerb``` | The hoNonSSLProxyUseConnectVerb is an HTTPOption flag for the Delphi Indy TIdHTTP component. When enabled, it forces TIdHTTP to use the HTTP CONNECT verb for ```non-SSL/TLS``` connections when routing traffic through a proxy server. |
+| ```hoNoParseMetaHTTPEquiv``` | hoNoParseMetaHTTPEquiv is an option in the HTTPOptions property of the TIdHTTP component in Delphi that controls how TIdHTTP responds to HTML meta elements. |
+| ```hoWaitForUnexpectedData``` | The hoWaitForUnexpectedData option in Delphi's TIdHTTP component is a flag that controls how the component handles a specific scenario: when a server sends unexpected data after a request has supposedly finished. |
+| ```hoTreat302Like303``` | hoTreat302Like303 is an option in the HTTPOptions property of the Indy TIdHTTP component in Delphi. When enabled, it causes an HTTP status code 302 Found (temporary redirect) to be treated the same as a 303 See Other. |
+
+
+
+
 
 
 
