@@ -41,7 +41,7 @@ Instead of connecting directly to a server that can fulfill a request for a reso
 * ```Off (Timeout):```
   * A "proxy server Off (Timeout)" error indicates a failure to connect to the proxy server, most likely due to network issues, a faulty proxy server, or a server being blocked. To fix this, you can check your internet connection, verify your proxy settings, try a different proxy, or temporarily disable your firewall to see if the error is being caused by interference. 
 
-# HHTP:
+# HTTP:
 When discussing proxy server HTTP options, it is important to distinguish between how the client configures its HTTP requests for the proxy and the HTTP methods and headers that govern communication. A proxy sits between a client and a web server, acting as an intermediary to handle and forward network traffic.
 
 </br>
