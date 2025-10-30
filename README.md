@@ -50,9 +50,9 @@ When discussing proxy server HTTP options, it is important to distinguish betwee
 | :-----------: | :----------------------------------------------------------- | 
 | ```HandleRedirects``` | In Delphi's Indy TIdHTTP component, the HandleRedirects property controls whether the component will automatically follow HTTP redirect responses from a web server. This is a crucial feature for navigating websites, as many modern sites use redirects for purposes like moving pages, load balancing, or enforcing HTTPS.    | 
 | ```AllowCookies```    | In Delphi's TIdHTTP component, you must use a separate TIdCookieManager component to enable automatic cookie handling. Simply setting the AllowCookies property to True is not enough; you must also link a TIdCookieManager to the TIdHTTP component. |
-| ```ProtocolVersion``` | In Delphi's TIdHTTP component (part of the Indy library), the HTTP protocol version is controlled by the ProtocolVersion property. The default value is pv1_1 (HTTP/1.1), but under certain circumstances, TIdHTTP may automatically downgrade to HTTP/1.0. |
-
-
+| ```ProtocolVersion``` | In Delphi's TIdHTTP component (part of the Indy library), the HTTP protocol version is controlled by the ProtocolVersion property. The default value is ```pv1_1``` (HTTP/1.1), but under certain circumstances, TIdHTTP may automatically downgrade to HTTP/1.0. |
+| ```BasicAuthentication``` | To specify a username and password for authentication with TIdHTTP in Delphi, you must set the Request.Username and Request.Password properties before making a request. For basic authentication, you also need to set the ```Request.BasicAuthentication``` property to True. |
+| ```hoInProcessAuth``` | hoInProcessAuth` is a constant from the IdHTTP component in Delphi that specifies that authentication for a request should take place locally (in-process). This means that authentication is performed by the IdHTTP component itself, without the need for an external network connection, which is often used for internal authentication. |
 
 
 
