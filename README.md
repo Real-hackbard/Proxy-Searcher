@@ -13,7 +13,7 @@
 
 <img width="500" height="192" alt="CPT-Proxy svg" src="https://github.com/user-attachments/assets/fa03535d-43ca-465c-9866-84168710111e" />
 
-</br>
+</br>  
 
 A proxy server is a [computer networking](https://en.wikipedia.org/wiki/Computer_network) term for a [server application](https://en.wikipedia.org/wiki/Server_(computing)) that acts as an [intermediary](https://en.wikipedia.org/wiki/Intermediary) between a [client](https://en.wikipedia.org/wiki/Client_(computing)) requesting a resource and the server then providing that resource.
 
