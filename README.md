@@ -11,9 +11,28 @@
 
 </br>
 
+<img width="500" height="192" alt="CPT-Proxy svg" src="https://github.com/user-attachments/assets/fa03535d-43ca-465c-9866-84168710111e" />
+
+</br>
+
 A proxy server is a [computer networking](https://en.wikipedia.org/wiki/Computer_network) term for a [server application](https://en.wikipedia.org/wiki/Server_(computing)) that acts as an [intermediary](https://en.wikipedia.org/wiki/Intermediary) between a [client](https://en.wikipedia.org/wiki/Client_(computing)) requesting a resource and the server then providing that resource.
 
 Instead of connecting directly to a server that can fulfill a request for a resource, such as a file or web page, the client directs the request to the proxy server, which evaluates the request and performs the required network transactions. This serves as a method to simplify or control the complexity of the request, or provide additional benefits such as load balancing, privacy, or security. Proxies were devised to add structure and [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(networking)) to [distributed](https://en.wikipedia.org/wiki/Distributed_computing) systems. A proxy server thus functions on behalf of the client when requesting service, potentially masking the true origin of the request to the resource server.
+
+</br>
+
+![Proxy](https://github.com/user-attachments/assets/26b47f55-29c4-4411-be54-d42474f263a9)
+
+</br>
+
+
+
+
+
+
+
+
+
 
 
 
