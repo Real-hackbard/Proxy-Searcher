@@ -53,7 +53,8 @@ When discussing proxy server HTTP options, it is important to distinguish betwee
 | ```ProtocolVersion``` | In Delphi's TIdHTTP component (part of the Indy library), the HTTP protocol version is controlled by the ProtocolVersion property. The default value is ```pv1_1``` (HTTP/1.1), but under certain circumstances, TIdHTTP may automatically downgrade to HTTP/1.0. |
 | ```BasicAuthentication``` | To specify a username and password for authentication with TIdHTTP in Delphi, you must set the Request.Username and Request.Password properties before making a request. For basic authentication, you also need to set the ```Request.BasicAuthentication``` property to True. |
 | ```hoInProcessAuth``` | hoInProcessAuth` is a constant from the IdHTTP component in Delphi that specifies that authentication for a request should take place locally (in-process). This means that authentication is performed by the IdHTTP component itself, without the need for an external network connection, which is often used for internal authentication. |
-
+| ```hoKeepOrigProtocol``` | The hoKeepOrigProtocol option for the Delphi Indy TIdHTTP component prevents the library from downgrading HTTP protocol requests, most notably POST requests. |
+| ```hoForceEncodeParams``` | In Delphi's TIdHTTP component (part of the Indy library), the hoForceEncodeParams option, part of the HTTPOptions property, controls the encoding behavior for parameters in POST requests. |
 
 
 
