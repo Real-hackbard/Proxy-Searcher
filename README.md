@@ -72,13 +72,22 @@ An [open proxy](https://en.wikipedia.org/wiki/Open_proxy) is a [forwarding](http
 * [Anonymous proxy](https://en.wikipedia.org/wiki/Anonymous_proxy): This server reveals its identity as a proxy server but does not disclose the originating IP address of the client. Although this type of server can be discovered easily, it can be beneficial for some users as it hides the originating IP address.
 * Transparent proxy: This server not only identifies itself as a proxy server, but with the support of HTTP [header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields) such as X-Forwarded-For, the originating IP address can be retrieved as well. The main benefit of using this type of server is its ability to cache a website for faster retrieval.
 
-Free Proxy list :  
-https://proxyscrape.com/free-proxy-list  
-https://spys.one/free-proxy-list  
-https://free-proxy-list.net  
-https://geonode.com/free-proxy-list  
-https://advanced.name/freeproxy  
-https://free.geonix.com/en/  
+### Free Proxy list :  
+* https://proxyscrape.com/free-proxy-list  
+* https://spys.one/free-proxy-list  
+* https://free-proxy-list.net  
+* https://geonode.com/free-proxy-list  
+* https://advanced.name/freeproxy  
+* https://free.geonix.com/en/
+* https://www.freeproxy.world/
+* https://proxy5.net/free-proxy
+* https://hide.mn/de/proxy-list/
+* http://free-proxy.cz/en/
+* https://fineproxy.org/free-proxy/
+* https://www.lumiproxy.com/free-proxy/
+* https://www.freeproxy.world/
+* https://iproyal.com/free-proxy-list/
+* 
 
 
 
