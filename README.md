@@ -87,7 +87,10 @@ An [open proxy](https://en.wikipedia.org/wiki/Open_proxy) is a [forwarding](http
 * https://www.lumiproxy.com/free-proxy/
 * https://www.freeproxy.world/
 * https://iproyal.com/free-proxy-list/
-* 
+* https://www.proxynova.com/proxy-server-list/
+* https://proxy5.net/free-proxy
+* https://proxydb.net/
+* https://fineproxy.org/free-proxy/
 
 
 
