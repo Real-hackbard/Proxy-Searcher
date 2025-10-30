@@ -66,8 +66,11 @@ When discussing proxy server HTTP options, it is important to distinguish betwee
 
 </br>
 
+# Open Proxys:
+An [open proxy](https://en.wikipedia.org/wiki/Open_proxy) is a [forwarding](https://en.wikipedia.org/wiki/Store_and_forward) proxy server that is accessible by any Internet user. In 2008, network security expert Gordon Lyon estimated that "hundreds of thousands" of open proxies are operated on the Internet.
 
-
+* [Anonymous proxy](https://en.wikipedia.org/wiki/Anonymous_proxy): This server reveals its identity as a proxy server but does not disclose the originating IP address of the client. Although this type of server can be discovered easily, it can be beneficial for some users as it hides the originating IP address.
+* Transparent proxy: This server not only identifies itself as a proxy server, but with the support of HTTP [header fields](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields) such as X-Forwarded-For, the originating IP address can be retrieved as well. The main benefit of using this type of server is its ability to cache a website for faster retrieval.
 
 
 
